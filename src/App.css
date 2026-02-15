@@ -1,26 +1,34 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #f4f6f9;
+  background-color: #f5f7fa;
+  color: #111;
 }
+
 
 table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 13px;
-  table-layout: auto; /* penting */
+  background: white;
 }
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px 12px;
-  text-align: center;
-  white-space: nowrap;      /* 🔥 supaya tidak wrap */
+th {
+  background-color: #1e40af;
+  color: white;
+  padding: 10px;
 }
 
 td {
-  overflow-x: auto;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  color: #111;
 }
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
 
 
 .container {

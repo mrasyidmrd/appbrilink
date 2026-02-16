@@ -1,8 +1,10 @@
 body {
-  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f5f7fa;
   color: #111;
+
+  display: flex;
+  justify-content: center;   /* 🔥 Tengah horizontal */
 }
 
 table {
@@ -32,10 +34,8 @@ tr:nth-child(even) {
 
 .container {
   width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 15px;
-  box-sizing: border-box;
+  max-width: 500px;          /* 🔥 Batas lebar agar rapi */
+  padding: 20px;
 }
 
 h2 {

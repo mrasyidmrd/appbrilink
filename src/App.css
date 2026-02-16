@@ -29,12 +29,10 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-
-
-
 .container {
   width: 100%;
-  max-width: 500px;          /* 🔥 Batas lebar agar rapi */
+  max-width: 500px;
+  margin: 20px auto;   /* 🔥 AUTO bikin ke tengah */
   padding: 20px;
 }
 

@@ -93,23 +93,20 @@ const getTimestamp = () => {
   return (  
     <div className="container">
       <h2>Aplikasi Pencatatan AgenBRILink</h2>
-
-      <select
-        value={form.jenisTransaksi}
-        onChange={(e) =>
-          setForm({ ...form, jenisTransaksi: e.target.value })
-        }
-      >
-        <option value="">Pilih Jenis Transaksi</option>
-        <option>Transfer</option>
-        <option>Tarik Tunai</option>
-        <option>Setor Tunai</option>
-        <option>Pembayaran</option>
-        <option>Topup</option>
-      </select>
-
-      <input
-  type="text"
+	      <select
+	        value={form.jenisTransaksi}
+	        onChange={(e) =>
+	          setForm({ ...form, jenisTransaksi: e.target.value })
+	        }
+	      >
+	        <option value="">Pilih Jenis Transaksi</option>
+	        <option>Transfer</option>
+	        <option>Tarik Tunai</option>
+	        <option>Setor Tunai</option>
+	        <option>Pembayaran</option>
+	        <option>Topup</option>
+	      </select>
+      <input type="text"
   placeholder="Keterangan (Opsional)"
   value={form.keterangan}
   onChange={(e) =>
@@ -119,8 +116,6 @@ const getTimestamp = () => {
     })
   }
 />
-
-
       <input
         type="text"
         placeholder="Nominal"

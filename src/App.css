@@ -5,7 +5,6 @@ body {
   color: #111;
 }
 
-
 table {
   width: 100%;
   border-collapse: collapse;
@@ -32,12 +31,11 @@ tr:nth-child(even) {
 
 
 .container {
-  max-width: 420px;
-  margin: 40px auto;
-  background: white;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -89,15 +87,16 @@ button:hover {
 }
 
 .table-wrapper {
-  width: 100%;
+    width: 100%;
   overflow-x: auto;
+  margin-top: 15px;
 }
 
 table {
   width: 100%;
-  min-width: 650px; /* 🔥 supaya tidak sempit */
   border-collapse: collapse;
-  font-size: 14px;
+  font-size: 13px;
+  background: white;
 }
 
 th, td {
@@ -120,4 +119,22 @@ tbody tr:nth-child(even) {
 tbody tr:hover {
   background-color: #f1f5f9;
 }
+@media (max-width: 480px) {
+  h2 {
+    font-size: 18px;
+  }
+
+  input,
+  select,
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  th, td {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+
 

@@ -172,7 +172,7 @@ const getTimestamp = () => {
 
     <tr key={i}>
       <td>{i + 1}</td> {/* Nomor otomatis */}
-      <td>{t.tanggal}</td>
+      <td>{new Date(item.tanggal).toLocaleDateString("id-ID")}</td>
       <td>{t.jenisTransaksi}</td>
       <td>{t.keterangan || "-"}</td>
       <td>Rp {t.nominal.toLocaleString("id-ID")}</td>

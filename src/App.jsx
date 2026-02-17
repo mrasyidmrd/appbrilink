@@ -92,7 +92,7 @@ const getTimestamp = () => {
 
   return (  
     <div className="container">
-      <h2>Aplikasi Pencatatan AgenBRILink</h2>
+      <h2>AgenBRILink TOKO AL FAJAR</h2>
 	      <select
 	        value={form.jenisTransaksi}
 	        onChange={(e) =>

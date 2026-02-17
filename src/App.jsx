@@ -18,7 +18,7 @@ export default function App() {
 
   const [transaksi, setTransaksi] = useState([]);
   useEffect(() => {
-  fetch(		"https://script.google.com/macros/s/AKfycbwpTSCF37iMW078exbOHmZY4KQfIGcK4D7hSY1KTWFrTFh0XB-M8zws6sW1y_YL_rNT/exec")
+  fetch(		"https://script.google.com/macros/library/d/18A6DEL6gunBIMojqWHViolK-EAxSeXb2tY_yxKVtMclkcW_sPrhDvdjx/9")
     .then(res => res.json())
     .then(data => setTransaksi(data));
 }, []);

@@ -100,12 +100,12 @@ const getTimestamp = () => {
 	        }
 	      >
 	        <option value="">Pilih Jenis Transaksi</option>
-	        <option>Transfer</option>
-	        <option>Tarik Tunai</option>
-	        <option>Setor Tunai</option>
-	        <option>Pembayaran</option>
-	        <option>Topup</option>
-			<option>Pulsa</option>
+				<option value="Transfer">Transfer</option>
+				<option value="Tarik Tunai">Tarik Tunai</option>
+				<option value="Setor Tunai">Setor Tunai</option>
+				<option value="Pembayaran">Pembayaran</option>
+				<option value="Topup">Topup</option>
+				<option value="Pulsa">Pulsa</option>
 	      </select>
       <input type="text"
   placeholder="Keterangan (Opsional)"

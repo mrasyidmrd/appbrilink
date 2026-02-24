@@ -105,6 +105,7 @@ const getTimestamp = () => {
 	        <option>Setor Tunai</option>
 	        <option>Pembayaran</option>
 	        <option>Topup</option>
+			<option>Pulsa</option>
 	      </select>
       <input type="text"
   placeholder="Keterangan (Opsional)"
